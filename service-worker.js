@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/socialcops-assignment/precache-manifest.bfb6a9ee343489aaab018468d0051423.js"
+  "/IPLWiki/precache-manifest.b0493bdb7c1b187adcf7db53b4eeded4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/socialcops-assignment/index.html", {
+workbox.routing.registerNavigationRoute("/IPLWiki/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
