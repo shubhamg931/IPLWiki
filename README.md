@@ -13,7 +13,7 @@ materializecss: Used as the front-end styling library.
 gh-pages: Used to host the web app on github gh-pages.
 
 
-##Bonus Points
+## Bonus Points
 
 1. The app is not made in Vue.js. React.js was used in place of it. The app is fully reactive and responsive.
 2. Loading time has been optimized.     
