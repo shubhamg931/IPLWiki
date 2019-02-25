@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import List from './containers/List'
 import Stats from './containers/Stats'
 import Year from './containers/Year'
+import Navbar from "./components/Navbar";
 
 function mapStateToProps(state) {
   return {}

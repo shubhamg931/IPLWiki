@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-import * as Chart from "chart.js";
 import { connect } from 'react-redux'
-import { Doughnut, HorizontalBar, Pie } from 'react-chartjs-2'
+import { Doughnut, HorizontalBar } from 'react-chartjs-2'
 import * as actions from "../actions"
-import * as Papa from 'papaparse'
 
 function mapStateToProps(state) {
   return {
@@ -15,10 +13,6 @@ function mapStateToProps(state) {
 }
 
   class Stats extends Component {
-
-  constructor(props){
-    super(props);
-  }
 
   returnTeam = () => {
     return this.props.plot.team;

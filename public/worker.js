@@ -1,6 +1,10 @@
+// service-worker.js
+
 // Flag for enabling cache in production
-var doCache = false;
-var CACHE_NAME = 'pwa-app-cache';
+const doCache = true;
+
+const CACHE_NAME = "pwa-app-cache";
+
 // Delete old caches
 self.addEventListener('activate', event => {
   const currentCachelist = [CACHE_NAME];
@@ -15,6 +19,7 @@ self.addEventListener('activate', event => {
       )
   );
 });
+
 // This triggers when user starts the app
 self.addEventListener('install', function(event) {
   if (doCache) {
@@ -30,6 +35,7 @@ self.addEventListener('install', function(event) {
               // We could also cache assets like CSS and images
               const urlsToCache = [
                 '/',
+                '/index.html',
                 assets['main.js']
               ];
               cache.addAll(urlsToCache);
@@ -38,6 +44,7 @@ self.addEventListener('install', function(event) {
     );
   }
 });
+
 // Here we intercept request and serve up the matching files
 self.addEventListener('fetch', function(event) {
   if (doCache) {

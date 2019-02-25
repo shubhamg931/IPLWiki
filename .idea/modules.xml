@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/socialcops-assignment.iml" filepath="$PROJECT_DIR$/.idea/socialcops-assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../IPLWiki/.idea/IPLWiki.iml" filepath="$PROJECT_DIR$/../IPLWiki/.idea/IPLWiki.iml" />
     </modules>
   </component>
 </project>
