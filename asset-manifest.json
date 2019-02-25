@@ -1,15 +1,15 @@
 {
-  "main.css": "/IPLWiki/static/css/main.060898fc.chunk.css",
-  "main.js": "/IPLWiki/static/js/main.3d3cf209.chunk.js",
-  "main.js.map": "/IPLWiki/static/js/main.3d3cf209.chunk.js.map",
+  "main.css": "/IPLWiki/static/css/main.7a035386.chunk.css",
+  "main.js": "/IPLWiki/static/js/main.0874069f.chunk.js",
+  "main.js.map": "/IPLWiki/static/js/main.0874069f.chunk.js.map",
   "runtime~main.js": "/IPLWiki/static/js/runtime~main.19c3ccb0.js",
   "runtime~main.js.map": "/IPLWiki/static/js/runtime~main.19c3ccb0.js.map",
-  "static/css/2.c54e07cb.chunk.css": "/IPLWiki/static/css/2.c54e07cb.chunk.css",
-  "static/js/2.1ec55025.chunk.js": "/IPLWiki/static/js/2.1ec55025.chunk.js",
-  "static/js/2.1ec55025.chunk.js.map": "/IPLWiki/static/js/2.1ec55025.chunk.js.map",
+  "static/css/2.414c9c38.chunk.css": "/IPLWiki/static/css/2.414c9c38.chunk.css",
+  "static/js/2.86c6cdd7.chunk.js": "/IPLWiki/static/js/2.86c6cdd7.chunk.js",
+  "static/js/2.86c6cdd7.chunk.js.map": "/IPLWiki/static/js/2.86c6cdd7.chunk.js.map",
   "index.html": "/IPLWiki/index.html",
-  "precache-manifest.b0493bdb7c1b187adcf7db53b4eeded4.js": "/IPLWiki/precache-manifest.b0493bdb7c1b187adcf7db53b4eeded4.js",
+  "precache-manifest.2d833326a2a6a1605a06393291ff8c91.js": "/IPLWiki/precache-manifest.2d833326a2a6a1605a06393291ff8c91.js",
   "service-worker.js": "/IPLWiki/service-worker.js",
-  "static/css/2.c54e07cb.chunk.css.map": "/IPLWiki/static/css/2.c54e07cb.chunk.css.map",
-  "static/css/main.060898fc.chunk.css.map": "/IPLWiki/static/css/main.060898fc.chunk.css.map"
+  "static/css/2.414c9c38.chunk.css.map": "/IPLWiki/static/css/2.414c9c38.chunk.css.map",
+  "static/css/main.7a035386.chunk.css.map": "/IPLWiki/static/css/main.7a035386.chunk.css.map"
 }
